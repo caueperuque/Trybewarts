@@ -56,4 +56,9 @@ main {
 
 #main-container {
   display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
 }
+
+
+
