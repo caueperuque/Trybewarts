@@ -39,3 +39,13 @@
   border: 1px solid gray;
   background-color: purple;
 }
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
