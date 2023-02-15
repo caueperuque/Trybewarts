@@ -1,3 +1,5 @@
+const getBtnHeader = document.querySelector('#subimit-btn-header')
+
 function validar() {
   const email = document.getElementById('form.email');
   const senha = document.getElementById('form.senha');
@@ -8,4 +10,18 @@ function validar() {
     alert('Email ou senha inválidos.');
   }
 }
-validar();
+getBtnHeader.addEventListener('click', validar)
+
+const getBtnAgreement = document.querySelector('#agreement');
+const getBtnSubmit = document.querySelector('#submit-btn');
+
+const activeBtn = (event) => {
+  const btnAgreement = event.target;
+  if (btnAgreement.checked) {
+    getBtnSubmit.disabled = false;
+  } else {
+    getBtnSubmit.disabled = true;
+  }
+};
+
+getBtnAgreement.addEventListener('click', activeBtn);
