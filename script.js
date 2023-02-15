@@ -1,4 +1,4 @@
-const getBtnHeader = document.querySelector('#subimit-btn-header')
+const getBtnHeader = document.querySelector('#subimit-btn-header');
 
 function validar() {
   const email = document.getElementById('form.email');
@@ -10,7 +10,8 @@ function validar() {
     alert('Email ou senha inválidos.');
   }
 }
-getBtnHeader.addEventListener('click', validar)
+
+getBtnHeader.addEventListener('click', validar);
 
 const getBtnAgreement = document.querySelector('#agreement');
 const getBtnSubmit = document.querySelector('#submit-btn');
