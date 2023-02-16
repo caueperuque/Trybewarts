@@ -20,8 +20,12 @@ const activeBtn = (event) => {
   const btnAgreement = event.target;
   if (btnAgreement.checked) {
     getBtnSubmit.disabled = false;
+    getBtnSubmit.style.backgroundColor = 'rgb(78, 44, 131)';
+    getBtnSubmit.style.color = 'white';
   } else {
     getBtnSubmit.disabled = true;
+    getBtnSubmit.style.backgroundColor = 'rgb(179, 179, 179)';
+    getBtnSubmit.style.color = 'gray';
   }
 };
 

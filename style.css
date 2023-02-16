@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: rgb(221, 221, 221);
+  background-color: rgb(239, 239, 239);
 }
 
 .header {
@@ -42,7 +42,7 @@ body {
   height: 45px;
   padding: 2px;
   border-radius: 10px;
-  border: 1px solid gray;
+  border: 0;
 }
 
 .trybewarts-login button {
@@ -51,8 +51,8 @@ body {
   height: 45px;
   padding: 2px;
   border-radius: 10px;
-  border: 1px solid gray;
-  background-color: rgb(45, 0, 82);
+  border: 0;
+  background-color: rgb(78, 44, 131);
 }
 
 main {
@@ -89,6 +89,7 @@ main {
   border: 0;
   height: 45px;
   border-radius: 10px;
+  background-color: white;
 }
 
 #house-container select {
@@ -100,16 +101,17 @@ main {
 }
 
 #footer {
-  background-color: rgb(115, 107, 119);
+  background-color: rgb(60, 64, 74);
   text-align: center;
-  padding: 10px;
   color: white;
   font-weight: 700;
   font-size: 20px;
 }
 
 h2 {
+  margin: 20px 0;
   text-align: center;
+  font-weight: 700;
 }
 
 .section-input {
@@ -141,4 +143,33 @@ h2 {
   width: 100%;
   justify-content: flex-start;
   margin: 15px 0;
+}
+
+#container-radius {
+  display: flex;
+  justify-content: space-between;
+}
+
+#input-comment {
+  resize: none;
+  border-color: rgb(78, 44, 131);
+  border-radius: 7px;
+}
+
+#container-agreement {
+  margin: 5px 0;
+}
+
+#submit-btn {
+  background-color: rgb(179, 179, 179);
+  color: gray;
+  margin-bottom: 40px;
+  border-radius: 7px;
+  border: 0;
+}
+
+#img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
