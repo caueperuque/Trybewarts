@@ -14,36 +14,33 @@
     <img src="images/trybewarts-header-logo.svg" alt="Logo trybewarts" class="trybewarts-header-logo">
 
     <h1 id="trybewarts-header-title">Trybewarts</h1>
-
-    <form class="trybewarts-login">
-      <input type="email" placeholder="Email" name="email" id="form.email">
-
-      <input type="password" placeholder="Senha" name="password" id="form.senha">
-
-      <button type="submit" id="subimit-btn-header">Entrar</button>
-    </form>
+      <form class="trybewarts-login">
+        <div>
+          <input type="email" placeholder="Email" name="email" id="form.email">
+        </div>
+        <div><input type="password" placeholder="Senha" name="password" id="form.senha"></div>
+        <div><button type="submit" id="subimit-btn-header">Entrar</button></div>
+      </form>
   </header>
 
   <main id="main-container">
     <form id="evaluation-form">
       <h2>Formulário de Avaliação</h2>
       <div id="container-name">
-        <label for="nome">Nome</label>
         <input type="text" id="input-name"  placeholder="Nome" />
-        <label for="sobrenome" class="margin-left-label">Sobrenome</label>
         <input type="text" id="input-lastname" placeholder="Sobrenome" />
-      </div id="container-name">
-
+      </div>
       <div id="container-email-school">
-        <label for="email">E-mail:</label>
         <input type="email" id="input-email" placeholder="Email" />
-        <label for="" class="margin-left-label">Escolha uma casa</label>
+        <div id="house-container">
+          <label for="">Casa:</label>
         <select id="house" name="Escola">
           <option id="gitnoria-house" value="Gitnória">Gitnória</option>
           <option id=reactpuff-house value="Reactpuff">Reactpuff</option>
           <option id=corvinode-house value="Corvinode">Corvinode</option>
           <option id="pytherina-house" value="Pytherina">Pytherina</option>
         </select>
+        </div>
       </div>
       <hr>
       <div id="family-container">
