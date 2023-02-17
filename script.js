@@ -31,7 +31,7 @@ const activeBtn = (event) => {
 getBtnAgreement.addEventListener('click', activeBtn);
 
 const myTextArea = document.getElementById('input-comment');
-const remainingCharsText = document.getElementById('my-textarea-remaining-chars');
+const remainingCharsText = document.getElementById('counter');
 const MAX_CHARS = 500;
 
 myTextArea.addEventListener('input', () => {
