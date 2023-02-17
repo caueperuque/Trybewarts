@@ -36,4 +36,5 @@ const MAX_CHARS = 500;
 
 myTextArea.addEventListener('input', () => {
   const remaining = MAX_CHARS - myTextArea.value.length;
-  remainingCharsText.textContent = `${remaining}`; });
+  remainingCharsText.textContent = `${remaining}`;
+});
