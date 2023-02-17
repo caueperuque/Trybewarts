@@ -29,3 +29,4 @@ const activeBtn = (event) => {
   }
 };
 getBtnAgreement.addEventListener('click', activeBtn);
+//
