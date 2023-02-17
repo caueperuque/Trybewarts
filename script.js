@@ -28,5 +28,12 @@ const activeBtn = (event) => {
     getBtnSubmit.style.color = 'gray';
   }
 };
-
 getBtnAgreement.addEventListener('click', activeBtn);
+
+const myTextArea = document.getElementById('input-comment');
+const remainingCharsText = document.getElementById('my-textarea-remaining-chars');
+const MAX_CHARS = 500;
+
+myTextArea.addEventListener('input', () => {
+  const remaining = MAX_CHARS - myTextArea.value.length;
+  remainingCharsText.textContent = `${remaining}`; });
