@@ -150,7 +150,7 @@ h2 {
   justify-content: space-between;
 }
 
-#input-comment {
+#textarea {
   resize: none;
   border-color: rgb(78, 44, 131);
   border-radius: 7px;

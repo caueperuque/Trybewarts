@@ -28,6 +28,4 @@ const activeBtn = (event) => {
     getBtnSubmit.style.color = 'gray';
   }
 };
-
 getBtnAgreement.addEventListener('click', activeBtn);
-///
